@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Unit17</string>
+    <string name="title_home">Home</string>
+    <string name="title_workout">Workout</string>
+    <string name="title_timer">Timer</string>
+    <string name="title_water">Water Tracker</string>
+    <string name="reset_button">Reset</string>
+    <string name="decrease_button">➖</string>
+    <string name="glasses_of_water">0 glasses</string>
+    <string name="increase_button">➕</string>
+</resources>

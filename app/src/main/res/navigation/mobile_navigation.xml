@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_water"
+        android:name="com.example.unit17.ui.water.WaterFragment"
+        android:label="@string/title_water"
+        tools:layout="@layout/fragment_water" />
+
+    <fragment
+        android:id="@+id/navigation_workout"
+        android:name="com.example.unit17.ui.workout.WorkoutFragment"
+        android:label="@string/title_workout"
+        tools:layout="@layout/fragment_workout" />
+
+    <fragment
+        android:id="@+id/navigation_timer"
+        android:name="com.example.unit17.ui.timer.TimerFragment"
+        android:label="@string/title_timer"
+        tools:layout="@layout/fragment_timer" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.unit17.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+</navigation>
