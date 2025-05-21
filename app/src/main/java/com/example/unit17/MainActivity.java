@@ -29,8 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
-        // Connect toolbar
         setSupportActionBar(binding.toolbar);
 
         // black top and bottom
